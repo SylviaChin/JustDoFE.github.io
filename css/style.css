@@ -2,12 +2,15 @@
 * @Author: rccoder
 * @Date:   2015-07-15 18:34:39
 * @Last Modified by:   rccoder
-* @Last Modified time: 2015-07-15 18:53:41
+* @Last Modified time: 2015-07-15 20:43:38
 */
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
+}
+body {
+    font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 header {
     position: relative;
@@ -51,5 +54,102 @@ nav {
     position: relative;
     height: 550px;
     background: url(../image/banner.jpg) no-repeat center;
-    background-size:100% 100%;
+    background-size: 100% 100%;
+}
+.section {
+    position: relative;
+    background: #F2F2F2;
+}
+.section-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1170px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section-container h2 {
+    position: relative;
+    text-align: center;
+    color: #18bc9c;
+    font-size: 32px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.section-container .tips p {
+    position: relative;
+    color: #868686;
+    font-size: 14px;
+    text-align: center;
+}
+.container-show {
+    position: relative;
+    max-width: 1170px;
+    margin-top: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container-show ul {
+    position: relative;
+    margin: 0 auto;
+    zoom: 1;
+    list-style: none;
+}
+.container-show ul li {
+    position: relative;
+    float: left;
+    width: 360px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.container-show-box {
+    position: relative;
+    background: #FFF;
+    height: 165px;
+    border-radius: 5px;
+    padding-top: 85px;
+    margin-top: 60px;
+}
+.container-show-box h3 {
+    position: relative;
+    color: #18bc9c;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.container-show-box p {
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #A8A8A8;
+    padding: 10px 18px;
+}
+.container-show-icon {
+    position: absolute;
+    left: 120px;
+    top: 0;
+    width: 101px;
+    height: 101px;
+    border: 10px solid #F4F4F4;
+    border-radius: 100%;
+    background-image: url(../image/fed.jpg)
+}
+.container-show-icon2 {
+    background-image: url(../image/xuexi.jpg);
+}
+.container-show-icon3 {
+    background-image: url(../image/chuangzao.jpg)
+}
+.container-show-icon4 {
+    background-image: url(../image/rccoder.jpg);
+}
+.container-show img {
+    border-radius: 100%;
+    margin-left: 40%;
+    margin-bottom: 100px
+}
+footer {
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: #f2f2f2;
 }
