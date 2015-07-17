@@ -116,12 +116,12 @@ nav {
     text-align: center;
     cursor: pointer;
 }
-.container-show-box p {
+.container-show-box p {    
     line-height: 22px;
     font-size: 12px;
     font-weight: 400;
     color: #A8A8A8;
-    padding: 10px 18px;
+    padding: 10px 18px;    
 }
 .container-show-icon {
     position: absolute;
@@ -131,7 +131,8 @@ nav {
     height: 101px;
     border: 10px solid #F4F4F4;
     border-radius: 100%;
-    background-image: url(../image/fed.jpg)
+    background-image: url(../image/fed.jpg);
+    transition:all 1s;
 }
 .container-show-icon2 {
     background-image: url(../image/xuexi.jpg);
@@ -160,3 +161,13 @@ footer {
     text-align: center;
     background: #f2f2f2;
 }
+
+
+/* animation effects*/
+
+.container-show-icon:hover {
+    transform:scale(1.2);
+    transition:transform 1s;
+}
+
+
